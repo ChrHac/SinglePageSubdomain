@@ -1,6 +1,31 @@
 html{
     scroll-behavior: smooth;
 }
+.navBar{ 
+    margin: 0;
+    width: 100%;
+    background-color: #0241a6;  
+}
+
+.links{
+    height: 60px;
+    margin: 0;
+       
+}
+
+.links a{
+    height: 60px;
+    margin: 0;
+    margin-right: -8px;
+    display: inline-block;
+    padding: 16px;
+    color: white;  
+}
+
+.links a:hover{
+    text-decoration: none;
+    background-color: #3964a8;
+}
 
 .article{
     width: 100%;
@@ -9,18 +34,7 @@ html{
     border-color: aliceblue;
 }
 
-.links{
-    height: 100px;
-}
-
 .calculator{
     border-style: solid;
     border-color: aliceblue;
-}
-
-.navBar{
-    border-style: solid;
-    border-color: aliceblue; 
-    margin: 0;
-    width: 100%; 
 }
