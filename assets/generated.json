@@ -1,0 +1,58 @@
+[
+  {
+    "isActive": true,
+    "balance": "$1,917.12",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": "Mendoza Reed",
+    "gender": "male"
+  },
+  {
+    "isActive": false,
+    "balance": "$2,609.78",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Vasquez Harrell",
+    "gender": "male"
+  },
+  {
+    "isActive": false,
+    "balance": "$2,502.30",
+    "age": 38,
+    "eyeColor": "brown",
+    "name": "Sherry Justice",
+    "gender": "female"
+  },
+  {
+    "isActive": true,
+    "balance": "$1,485.78",
+    "age": 21,
+    "eyeColor": "green",
+    "name": "Carmela Cash",
+    "gender": "female"
+  },
+  {
+    "isActive": true,
+    "balance": "$2,654.37",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Eloise Baird",
+    "gender": "female"
+  },
+  {
+    "isActive": true,
+    "balance": "$2,273.89",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": "Krista Alston",
+    "gender": "female"
+  },
+  {
+    "isActive": false,
+    "balance": "$2,266.66",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Romero Haney",
+    "gender": "male"
+  }
+]

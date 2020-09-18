@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <script src='assets/smoothScroll.js'></script>
+    <script src='assets/jquery.js'></script>
     <script src='assets/bootstrap.js'></script>
     <link rel='stylesheet' href='assets/bootstrap.css'>  
     <link rel='stylesheet' href='assets/styling.css'>   
 </head>
 <body>
     <div id ="navtop" class="row text-center col-12 navBar">                
-        <div class="links col-12 ">            
+        <div class="links col-12">            
             <a href="#1">Section 1</a>
             <a href="#2">Section 2</a>
             <a href="#3">Section 3</a>
@@ -15,11 +15,12 @@
             <a href="#5">Section 5</a>           
         </div>
     </div>
-    <div class="row col-12">
+    <div class="row col-12 margin-top-50">
         <div id="sections" class="col-10">
 
             <section id="1" class="article">
-                <h6>Article Here</h6>
+                <input id="buttonJSON" type="button" value="Create Table from JSON" />
+                <p id="showData"></p>
             </section>
 
             <section id="2" class="article">
@@ -51,6 +52,6 @@
     
 
 
-
+<script src='assets/createTableFromJSON.js'></script>
 </body>
 </html>
