@@ -2,6 +2,8 @@
 <head>
     <script src='assets/jquery.js'></script>
     <script src='assets/bootstrap.js'></script>
+    <script src='assets/bubbleSort.js'></script>
+    <script src='assets/selectionSort.js'></script>
     <link rel='stylesheet' href='assets/bootstrap.css'>  
     <link rel='stylesheet' href='assets/styling.css'>   
 </head>
@@ -12,7 +14,9 @@
             <a href="#2">Section 2</a>
             <a href="#3">Section 3</a>
             <a href="#4">Section 4</a>
-            <a href="#5">Section 5</a>           
+            <a href="#5">Section 5</a>
+            <a href="#6">Section 6</a> 
+            <a href="#7">Section 7</a>            
         </div>
     </div>
     <div class="row col-12 margin-top-50">
@@ -24,11 +28,24 @@
             </section>
 
             <section id="2" class="article">
-                <h6>Article Here</h6>
+                <h6>Bubble Sort</h6>
+                <p>
+                    Bubble sorting is an algorithm that takes an array of numbers and sorts them by comparing and sorting 
+                    individual pairs until all pairs in the array are in the correct order. We will sort the below array using
+                    the bubble sort.
+                </p>
+                <p>Before sorting: arr = [5,6,1,2,5,8,2,4,6]</p><input id="bubbleSort" type="button" value="Sort">
+                <p id="bubbleAfter"></p>
             </section>
 
             <section id="3" class="article">
-                <h6>Article Here</h6>
+                <h6>Selection Sort</h6>
+                <p>
+                    Selection sorting is an algorithm that takes an array of numbers, finds the smallest values and moves it to the first position.
+                    It then repeats this process removing the first element of the array as it has already been sorted.
+                </p>
+                <p>Before sorting: arr = [18,15,3,8,7,16,14,17,6,19]</p><input id="selectionSort" type="button" value="Sort">
+                <p id="selectionAfter"></p>
             </section>
                 
             <section id="4" class="article">
@@ -36,6 +53,14 @@
             </section>
 
             <section id="5" class="article">
+                <h6>Article Here</h6>
+            </section>
+
+            <section id="6" class="article">
+                <h6>Article Here</h6>
+            </section>
+
+            <section id="7" class="article">
                 <h6>Article Here</h6>
             </section>
 
@@ -52,6 +77,6 @@
     
 
 
-<script src='assets/createTableFromJSON.js'></script>
+<!--<script src='assets/createTableFromJSON.js'></script>-->
 </body>
 </html>
