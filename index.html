@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<head>
-    <script src='assets/jquery.js'></script>
-    <script src='assets/bootstrap.js'></script>
-    <script src='assets/bubbleSort.js'></script>
-    <script src='assets/selectionSort.js'></script>
-    <link rel='stylesheet' href='assets/bootstrap.css'>  
-    <link rel='stylesheet' href='assets/styling.css'>   
+<head>    
+    <link rel='stylesheet' href='assets/CSS/bootstrap.css'>  
+    <link rel='stylesheet' href='assets/CSS/styling.css'>   
 </head>
 <body>
-    <div id ="navtop" class="row text-center col-12 navBar">                
+    <div id ="navtop" class="row text-center navBar">                
         <div class="links col-12">            
             <a href="#1">Section 1</a>
             <a href="#2">Section 2</a>
@@ -19,7 +15,7 @@
             <a href="#7">Section 7</a>            
         </div>
     </div>
-    <div class="row col-12 margin-top-50">
+    <div class="row margin-top-50">
         <div id="sections" class="col-10">
 
             <section id="1" class="article">
@@ -49,7 +45,12 @@
             </section>
                 
             <section id="4" class="article">
-                <h6>Article Here</h6>
+                <h6>Insertion Sort</h6>
+                <p>
+                    Insertion sorting is an algorithm that takes an array of numbers, .
+                </p>
+                <p>Before sorting: arr = [12,13,11,7,4,5,19,17,15,20]</p><input id="insertionSort" type="button" value="Sort">
+                <p id="insertionAfter"></p>
             </section>
 
             <section id="5" class="article">
@@ -76,7 +77,11 @@
     </div>
     
 
-
+<script src='assets/JS/jquery.js'></script>
+<script src='assets/JS/bootstrap.js'></script>
+<script src='assets/JS/bubbleSort.js'></script>
+<script src='assets/JS/selectionSort.js'></script>
+<script src='assets/JS/insertionSort.js'></script>
 <!--<script src='assets/createTableFromJSON.js'></script>-->
 </body>
 </html>
