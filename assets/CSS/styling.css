@@ -40,7 +40,54 @@ html{
     border-color: aliceblue;
 }
 
+.algorithm{
+    padding-left: 15px;
+    padding-right: 80px;
+    width: 50%;
+    height: 400px;
+    display: none;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
 .calculator{
     border-style: solid;
     border-color: aliceblue;
 }
+
+
+
+.openbtn{
+    margin: 0;
+    position: relative;
+    left: 90px;
+    top: -29px;
+    font-size: 15px;    
+    color: #939FCA;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+    
+}
+
+.openbtn:hover{
+    color: #C5D2FF; 
+}
+
+.closebtn{
+    display: none;
+    margin: 0;
+    position: relative;
+    left: 90px;
+    top: -29px;
+    font-size: 15px;    
+    color: #939FCA;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+}
+
+.closebtn:hover{
+    color: #C5D2FF; 
+}
+

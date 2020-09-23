@@ -15,5 +15,8 @@ $(document).ready(function() {
         bubbleSort(bubbleArr);
         let pContainer = document.getElementById("bubbleAfter");
         pContainer.innerHTML = "After sorting: arr=["+bubbleArr+"]";
+        let id = $(this).parent().attr('id');
+        let aContainer = document.getElementById("alg"+id);
+        aContainer.innerHTML = bubbleSort.toString() ;
     });
 });

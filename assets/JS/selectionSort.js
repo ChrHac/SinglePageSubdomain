@@ -18,5 +18,8 @@ $(document).ready(function() {
         selectionSort(selectionArr);
         let pContainer = document.getElementById("selectionAfter");
         pContainer.innerHTML = "After sorting: arr=["+selectionArr+"]";
+        let id = $(this).parent().attr('id');
+        let aContainer = document.getElementById("alg"+id);
+        aContainer.innerHTML = selectionSort.toString() ;
     });
 });

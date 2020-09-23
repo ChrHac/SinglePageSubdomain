@@ -19,5 +19,8 @@ $(document).ready(function() {
         insertionSort(insertionArr);
         let pContainer = document.getElementById("insertionAfter");
         pContainer.innerHTML = "After sorting: arr=["+insertionArr+"]";
+        let id = $(this).parent().attr('id');
+        let aContainer = document.getElementById("alg"+id);
+        aContainer.innerHTML = insertionSort.toString() ;
     });
 });

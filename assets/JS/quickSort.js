@@ -43,5 +43,8 @@ $(document).ready(function() {
         quickSort(quickArr, 0, quickArr.length-1);
         let pContainer = document.getElementById("quickAfter");
         pContainer.innerHTML = "After sorting: arr=["+quickArr+"]";
+        let id = $(this).parent().attr('id');
+        let aContainer = document.getElementById("alg"+id);
+        aContainer.innerHTML = quickSort.toString() ;
     });
 });
