@@ -37,7 +37,7 @@
             <section id="3" class="article">
                 <h6>Selection Sort</h6>
                 <p>
-                    Selection sorting is an algorithm that takes an array of numbers, finds the smallest values and moves it to the first position.
+                    Selection sorting is an algorithm that takes an array of numbers, finds the smallest value and swaps it with the element in first position.
                     It then repeats this process removing the first element of the array as it has already been sorted.
                 </p>
                 <p>Before sorting: arr = [18,15,3,8,7,16,14,17,6,19]</p><input id="selectionSort" type="button" value="Sort">
@@ -47,22 +47,40 @@
             <section id="4" class="article">
                 <h6>Insertion Sort</h6>
                 <p>
-                    Insertion sorting is an algorithm that takes an array of numbers, .
+                    Insertion sorting is an algorithm that takes an array of numbers, iterates through the elements comparing each to it's predecessor.
+                    If the element is smaller than it's predecessor then it is moved to the first position of the array with the other elements moving 1 spot forward to make room.
                 </p>
                 <p>Before sorting: arr = [12,13,11,7,4,5,19,17,15,20]</p><input id="insertionSort" type="button" value="Sort">
                 <p id="insertionAfter"></p>
             </section>
 
             <section id="5" class="article">
-                <h6>Article Here</h6>
+                <h6>Merge Sort</h6>
+                <p>
+                    So we're skipping Merge sort for now.
+                </p>
+                <p>Before sorting: arr = [17,18,16,6,5,12,1,2,20,9]</p><input id="mergeSort" type="button" value="Sort">
+                <p id="mergeAfter"></p>
             </section>
 
             <section id="6" class="article">
-                <h6>Article Here</h6>
+                <h6>Quick Sort</h6>
+                <p>Quick sort takes a pivot point, most commonly the middle point of the array and compares elements on either side of it to the pivot.
+                    It takes the first element on the left that is smaller than the pivot and the first element on the right that is greater than the pivot and swaps them.
+                    It then breaks the array at the pivot point and repeats the process on both sides of the pivot.
+                    This is iterated until the array has been sorted.
+                </p>
+                <p>Before sorting: arr = [3,9,6,17,2,5,18,20,12,19]</p><input id="quickSort" type="button" value="Sort">
+                <p id="quickAfter"></p>
             </section>
 
             <section id="7" class="article">
-                <h6>Article Here</h6>
+                <h6>Heap Sort</h6>
+                <p>
+                    
+                </p>
+                <p>Before sorting: arr = [19,20,11,3,5,12,18,10,6,15]</p><input id="heapSort" type="button" value="Sort">
+                <p id="heapAfter"></p>
             </section>
 
         </div>
@@ -82,6 +100,8 @@
 <script src='assets/JS/bubbleSort.js'></script>
 <script src='assets/JS/selectionSort.js'></script>
 <script src='assets/JS/insertionSort.js'></script>
+<script src='assets/JS/mergeSort.js'></script>
+<script src='assets/JS/quickSort.js'></script>
 <!--<script src='assets/createTableFromJSON.js'></script>-->
 </body>
 </html>

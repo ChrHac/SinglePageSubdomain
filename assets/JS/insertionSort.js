@@ -1,26 +1,23 @@
-function insertionSort(arr) {
-    let n = arr.length;
+function insertionSort(insertionArr) {
+    let n = insertionArr.length;
     for (let i = 1; i < n; i++) {
-        let minIndex = arr[i];
+        let minIndex = insertionArr[i];
         let j = i-1;
-        while (j>=0 && minIndex < arr[j]) {
-            arr[j+1] = arr[j];
+        while (j>=0 && minIndex < insertionArr[j]) {
+            insertionArr[j+1] = insertionArr[j];
             j -=1;            
         } 
-        arr[j+1] = minIndex;       
+        insertionArr[j+1] = minIndex;       
     }
     
-    return arr;
+    return insertionArr;
 }
-arr = [12,13,11,7,4,5,19,17,15,20]; 
+insertionArr = [12,13,11,7,4,5,19,17,15,20]; 
 
 $(document).ready(function() {
     $("#insertionSort").click(function() {        
-        insertionSort(arr);
+        insertionSort(insertionArr);
         let pContainer = document.getElementById("insertionAfter");
-        pContainer.innerHTML = "After sorting: arr=["+arr+"]";
+        pContainer.innerHTML = "After sorting: arr=["+insertionArr+"]";
     });
 });
-
-
-console.log(insertionSort(arr));

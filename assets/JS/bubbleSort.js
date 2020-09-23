@@ -1,22 +1,19 @@
-function bubbleSort(arr) {
-    for (let j = 0; j < arr.length; j++) {
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i-1] > arr[i]) {
-                [arr[i-1], arr[i]] = [arr[i], arr[i-1]];
+function bubbleSort(bubbleArr) {
+    for (let j = 0; j < bubbleArr.length; j++) {
+        for (let i = 0; i < bubbleArr.length; i++) {
+            if (bubbleArr[i-1] > bubbleArr[i]) {
+                [bubbleArr[i-1], bubbleArr[i]] = [bubbleArr[i], bubbleArr[i-1]];
             }
         }
     }
-    return arr;
+    return bubbleArr;
 }
-arr = [5,6,1,2,5,8,2,4,6]; 
+bubbleArr = [5,6,1,2,5,8,2,4,6]; 
 
 $(document).ready(function() {
     $("#bubbleSort").click(function() {        
-        bubbleSort(arr);
+        bubbleSort(bubbleArr);
         let pContainer = document.getElementById("bubbleAfter");
-        pContainer.innerHTML = "After sorting: arr=["+arr+"]";
+        pContainer.innerHTML = "After sorting: arr=["+bubbleArr+"]";
     });
 });
-
-
-console.log(bubbleSort(arr));
